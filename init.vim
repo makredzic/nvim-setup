@@ -50,3 +50,12 @@ endfunction
 
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
+
+" Press ii to return to normal mode when in Insert mode
+inoremap ii <ESC>
+inoremap <ESC> <NOP>
+
+vnoremap ii <ESC>
+vnoremap <ESC> <NOP>
+
+cnoremap ii <ESC>
